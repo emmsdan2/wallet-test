@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "type": "Credit",
+    "amount": 14.06,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2026-01-08T09:00:00Z",
+    "isPending": true,
+    "authorizedUser": "Diana"
+  },
+  {
+    "id": 2,
+    "type": "Payment",
+    "amount": 174.00,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank",
+    "date": "2026-01-06T10:00:00Z",
+    "isPending": false
+  },
+  {
+    "id": 3,
+    "type": "Credit",
+    "amount": 3.24,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2026-01-06T14:30:00Z",
+    "isPending": false,
+    "authorizedUser": "Diana"
+  },
+  {
+    "id": 4,
+    "type": "Payment",
+    "amount": 99.71,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank",
+    "date": "2026-01-03T08:15:00Z",
+    "isPending": false
+  },
+  {
+    "id": 5,
+    "type": "Payment",
+    "amount": 73.58,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank",
+    "date": "2026-01-05T11:00:00Z",
+    "isPending": false
+  },
+  {
+    "id": 6,
+    "type": "Credit",
+    "amount": 21.61,
+    "name": "IKEA",
+    "description": "Round Rock, TX",
+    "date": "2022-10-01T12:00:00Z",
+    "isPending": false
+  },
+  {
+    "id": 7,
+    "type": "Credit",
+    "amount": 73.58,
+    "name": "Target",
+    "description": "Cedar Park, TX",
+    "date": "2026-01-08T16:45:00Z",
+    "isPending": false
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 7.50,
+    "name": "Airalo",
+    "description": "eSIM Purchase",
+    "date": "2022-05-26T12:47:00Z",
+    "isPending": false
+  },
+  {
+    "id": 9,
+    "type": "Credit",
+    "amount": 45.00,
+    "name": "Starbucks",
+    "description": "Reload",
+    "date": "2026-01-07T09:20:00Z",
+    "isPending": false,
+    "authorizedUser": "Sam"
+  },
+  {
+    "id": 10,
+    "type": "Payment",
+    "amount": 50.00,
+    "name": "Payment",
+    "description": "From Wells Fargo",
+    "date": "2026-01-04T10:00:00Z",
+    "isPending": false
+  }
+]
