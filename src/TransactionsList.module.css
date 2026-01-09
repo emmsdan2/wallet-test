@@ -1,0 +1,153 @@
+.container {
+  max-width: 480px;
+  background-color: #f2f2f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 16px;
+  box-sizing: border-box;
+  color: #000;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.topGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.dailyPoints, .cardInfo {
+    min-height: 80px;
+}
+.cardInfo, .paymentStatus, .dailyPoints {
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+}
+.dailyPoints {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paymentStatus {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.balance {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.available {
+  font-size: 16px;
+  color: #8e8e93;
+  text-wrap: no-wrap;
+  white-space: nowrap;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #8e8e93;
+  margin-top: 4px;
+}
+
+.checkIcon {
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000;
+  background-color: #EEEEEF;
+  border: 1px solid #EAEAEC;
+  border-radius: 1000px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.points {
+  font-size: 18px;
+  color: #8e8e93;
+}
+
+.sectionTitle {
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+}
+
+.transactionList {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.transactionItem {
+  display: flex;
+  padding: 12px;
+  border-bottom: 0.5px solid #e5e5ea;
+}
+
+.iconBox {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.merchantIcon { background: #3a3a3c; color: #fff; }
+.paymentIcon { background: linear-gradient(135deg, #ffcc00, #ff9500); color: #fff; }
+
+.txDetails {
+  flex: 1;
+}
+
+.txRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.merchantName { font-weight: 700; font-size: 16px; }
+.amount { font-weight: 600; font-size: 17px; margin-left: auto; }
+/* .green { color: #34c759; } */
+
+.subtitle { font-size: 14px; color: #8e8e93; flex: 1; }
+.percentage { 
+  font-size: 10px; 
+  background: #f2f2f7; 
+  padding: 2px 4px; 
+  border-radius: 4px; 
+  color: #8e8e93;
+  display: block;
+      margin-left: auto;
+
+  width: max-content;
+}
+
+.percentWrapper{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    gap: 2px;
+
+}
+.detailText { font-size: 14px; color: #8e8e93; }
+.chevron { font-size: 20px; color: #c7c7cc; margin-top: 4px; }

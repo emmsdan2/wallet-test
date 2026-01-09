@@ -1,0 +1,102 @@
+.container {
+    width: 100%;
+  max-width: 480px;
+  background-color: #f2f2f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 16px;
+  box-sizing: border-box;
+  color: #000;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100vh;
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #007aff; /* iOS Blue */
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.amount {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.merchant {
+  font-size: 17px;
+  color: #8e8e93;
+  margin: 4px 0 0 0;
+}
+
+.timestamp {
+  font-size: 17px;
+  color: #8e8e93;
+  margin: 2px 0 0 0;
+}
+
+.detailsCard {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.statusSection {
+  margin-bottom: 12px;
+}
+
+.statusLabel {
+  font-size: 17px;
+  color: #000;
+}
+
+.paymentMethod {
+  font-size: 17px;
+  color: #8e8e93;
+  margin-top: 2px;
+}
+
+.divider {
+  height: 0.5px;
+  background-color: #c6c6c8;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalLabel {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.totalValue {
+  font-size: 17px;
+  font-weight: 600;
+}
